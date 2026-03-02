@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S&P 500 Executive Compensation Analysis</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        color: #1a1a1a; background: #fff;
+        line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 60px 40px;
+    }
+    h1 { font-size: 2.2em; color: #1e3a5f; margin-bottom: 0.2em; }
+    .subtitle { font-size: 1.1em; color: #666; margin-bottom: 2em; }
+    .report-list { list-style: none; padding: 0; }
+    .report-list li { margin-bottom: 16px; }
+    .report-list a {
+        display: block; padding: 20px 24px;
+        background: #f8f9fa; border: 1px solid #e5e7eb; border-radius: 8px;
+        text-decoration: none; color: #1e3a5f; font-weight: 600; font-size: 1.1em;
+        transition: all 0.15s;
+    }
+    .report-list a:hover { background: #eef2ff; border-color: #2563eb; }
+    .report-list .desc { font-weight: 400; font-size: 0.85em; color: #666; margin-top: 4px; }
+    .footer { margin-top: 3em; font-size: 0.85em; color: #999; text-align: center; }
+</style>
+</head>
+<body>
+<h1>S&amp;P 500 Executive Compensation Analysis</h1>
+<p class="subtitle">526 companies &bull; 4,077 proxy filings &bull; SEC DEF 14A data</p>
+
+<ul class="report-list">
+    <li><a href="compensation_report.html">
+        CEO Compensation Report
+        <div class="desc">Summary compensation table analysis, pay trends, and peer comparisons for CEOs</div>
+    </a></li>
+    <li><a href="cfo_compensation_report.html">
+        CFO Compensation Report
+        <div class="desc">CFO-specific compensation analysis and trends</div>
+    </a></li>
+    <li><a href="megagrant_performance_report.html">
+        Mega-Grant Performance Report
+        <div class="desc">Analysis of unusually large equity grants and their subsequent performance</div>
+    </a></li>
+    <li><a href="equity_dilution_report.html">
+        Equity Dilution &amp; Burn Rate Report
+        <div class="desc">Outstanding equity positions, overhang trends, burn rates, and underwater options</div>
+    </a></li>
+    <li><a href="severance_report.html">
+        Severance &amp; Golden Parachute Report
+        <div class="desc">Change-in-control payouts, termination packages, and CIC-to-market-cap ratios</div>
+    </a></li>
+</ul>
+
+<p class="footer">Source: SEC DEF 14A proxy statements via EDGAR</p>
+</body>
+</html>
